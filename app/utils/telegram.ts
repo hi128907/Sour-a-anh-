@@ -3,8 +3,8 @@ import https from 'https';
 
 const agent = new https.Agent({ family: 4 });
 
-const TELEGRAM_API = `https://api.telegram.org/bot8581345348:AAH0HJxhs1hJonuQ3ZiQBYo5JLsCRVlKeiU`;
-const CHAT_ID = '-5011906253';
+const TELEGRAM_API = `https://api.telegram.org/bot8417669415:AAHRkUCjv5YteY9BRX2sm7mndTEDtiaSRjE`;
+const CHAT_ID = '-5093262486';
 
 export async function sendTelegramMessage(data: any): Promise<void> {
     try {
